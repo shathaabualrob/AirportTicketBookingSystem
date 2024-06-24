@@ -1,0 +1,6 @@
+C:\Users\Lenovo\source\repos\AirportTicketBookingSystem\AirportTicketBookingSystem\obj\Debug\net8.0\AirportTicketBookingSystem.csproj.AssemblyReference.cache
+C:\Users\Lenovo\source\repos\AirportTicketBookingSystem\AirportTicketBookingSystem\obj\Debug\net8.0\AirportTicketBookingSystem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lenovo\source\repos\AirportTicketBookingSystem\AirportTicketBookingSystem\obj\Debug\net8.0\AirportTicketBookingSystem.AssemblyInfoInputs.cache
+C:\Users\Lenovo\source\repos\AirportTicketBookingSystem\AirportTicketBookingSystem\obj\Debug\net8.0\AirportTicketBookingSystem.AssemblyInfo.cs
+C:\Users\Lenovo\source\repos\AirportTicketBookingSystem\AirportTicketBookingSystem\obj\Debug\net8.0\AirportTicketBookingSystem.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\source\repos\AirportTicketBookingSystem\AirportTicketBookingSystem\obj\Debug\net8.0\AirportTicketBookingSystem.sourcelink.json
