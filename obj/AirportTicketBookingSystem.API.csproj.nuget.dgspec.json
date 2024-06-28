@@ -4,6 +4,200 @@
     "C:\\Users\\Lenovo\\source\\repos\\AirportTicketBookingSystem\\AirportTicketBookingSystem\\AirportTicketBookingSystem.API.csproj": {}
   },
   "projects": {
+    "C:\\Users\\Lenovo\\source\\repos\\AirportTicketBookingSystem\\AirportTicketBookingSystem.Core\\AirportTicketBookingSystem.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Lenovo\\source\\repos\\AirportTicketBookingSystem\\AirportTicketBookingSystem.Core\\AirportTicketBookingSystem.Core.csproj",
+        "projectName": "AirportTicketBookingSystem.Core",
+        "projectPath": "C:\\Users\\Lenovo\\source\\repos\\AirportTicketBookingSystem\\AirportTicketBookingSystem.Core\\AirportTicketBookingSystem.Core.csproj",
+        "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Lenovo\\source\\repos\\AirportTicketBookingSystem\\AirportTicketBookingSystem.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.301/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Lenovo\\source\\repos\\AirportTicketBookingSystem\\AirportTicketBookingSystem.Infrastructure\\AirportTicketBookingSystem.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Lenovo\\source\\repos\\AirportTicketBookingSystem\\AirportTicketBookingSystem.Infrastructure\\AirportTicketBookingSystem.Infrastructure.csproj",
+        "projectName": "AirportTicketBookingSystem.Infrastructure",
+        "projectPath": "C:\\Users\\Lenovo\\source\\repos\\AirportTicketBookingSystem\\AirportTicketBookingSystem.Infrastructure\\AirportTicketBookingSystem.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Lenovo\\source\\repos\\AirportTicketBookingSystem\\AirportTicketBookingSystem.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Lenovo\\source\\repos\\AirportTicketBookingSystem\\AirportTicketBookingSystem.Core\\AirportTicketBookingSystem.Core.csproj": {
+                "projectPath": "C:\\Users\\Lenovo\\source\\repos\\AirportTicketBookingSystem\\AirportTicketBookingSystem.Core\\AirportTicketBookingSystem.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.301/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Lenovo\\source\\repos\\AirportTicketBookingSystem\\AirportTicketBookingSystem.Services\\AirportTicketBookingSystem.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Lenovo\\source\\repos\\AirportTicketBookingSystem\\AirportTicketBookingSystem.Services\\AirportTicketBookingSystem.Services.csproj",
+        "projectName": "AirportTicketBookingSystem.Services",
+        "projectPath": "C:\\Users\\Lenovo\\source\\repos\\AirportTicketBookingSystem\\AirportTicketBookingSystem.Services\\AirportTicketBookingSystem.Services.csproj",
+        "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Lenovo\\source\\repos\\AirportTicketBookingSystem\\AirportTicketBookingSystem.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Lenovo\\source\\repos\\AirportTicketBookingSystem\\AirportTicketBookingSystem.Core\\AirportTicketBookingSystem.Core.csproj": {
+                "projectPath": "C:\\Users\\Lenovo\\source\\repos\\AirportTicketBookingSystem\\AirportTicketBookingSystem.Core\\AirportTicketBookingSystem.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.301/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "C:\\Users\\Lenovo\\source\\repos\\AirportTicketBookingSystem\\AirportTicketBookingSystem\\AirportTicketBookingSystem.API.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -27,7 +221,17 @@
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\Lenovo\\source\\repos\\AirportTicketBookingSystem\\AirportTicketBookingSystem.Core\\AirportTicketBookingSystem.Core.csproj": {
+                "projectPath": "C:\\Users\\Lenovo\\source\\repos\\AirportTicketBookingSystem\\AirportTicketBookingSystem.Core\\AirportTicketBookingSystem.Core.csproj"
+              },
+              "C:\\Users\\Lenovo\\source\\repos\\AirportTicketBookingSystem\\AirportTicketBookingSystem.Infrastructure\\AirportTicketBookingSystem.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\Lenovo\\source\\repos\\AirportTicketBookingSystem\\AirportTicketBookingSystem.Infrastructure\\AirportTicketBookingSystem.Infrastructure.csproj"
+              },
+              "C:\\Users\\Lenovo\\source\\repos\\AirportTicketBookingSystem\\AirportTicketBookingSystem.Services\\AirportTicketBookingSystem.Services.csproj": {
+                "projectPath": "C:\\Users\\Lenovo\\source\\repos\\AirportTicketBookingSystem\\AirportTicketBookingSystem.Services\\AirportTicketBookingSystem.Services.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

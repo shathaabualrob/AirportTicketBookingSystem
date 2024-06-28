@@ -3263,6 +3263,43 @@
         "runtime": {
           "lib/net7.0/ZstdSharp.dll": {}
         }
+      },
+      "AirportTicketBookingSystem.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/AirportTicketBookingSystem.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AirportTicketBookingSystem.Core.dll": {}
+        }
+      },
+      "AirportTicketBookingSystem.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "AirportTicketBookingSystem.Core": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "8.0.6"
+        },
+        "compile": {
+          "bin/placeholder/AirportTicketBookingSystem.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AirportTicketBookingSystem.Infrastructure.dll": {}
+        }
+      },
+      "AirportTicketBookingSystem.Services/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "AirportTicketBookingSystem.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/AirportTicketBookingSystem.Services.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AirportTicketBookingSystem.Services.dll": {}
+        }
       }
     }
   },
@@ -9196,10 +9233,28 @@
         "zstdsharp.port.0.7.1.nupkg.sha512",
         "zstdsharp.port.nuspec"
       ]
+    },
+    "AirportTicketBookingSystem.Core/1.0.0": {
+      "type": "project",
+      "path": "../AirportTicketBookingSystem.Core/AirportTicketBookingSystem.Core.csproj",
+      "msbuildProject": "../AirportTicketBookingSystem.Core/AirportTicketBookingSystem.Core.csproj"
+    },
+    "AirportTicketBookingSystem.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../AirportTicketBookingSystem.Infrastructure/AirportTicketBookingSystem.Infrastructure.csproj",
+      "msbuildProject": "../AirportTicketBookingSystem.Infrastructure/AirportTicketBookingSystem.Infrastructure.csproj"
+    },
+    "AirportTicketBookingSystem.Services/1.0.0": {
+      "type": "project",
+      "path": "../AirportTicketBookingSystem.Services/AirportTicketBookingSystem.Services.csproj",
+      "msbuildProject": "../AirportTicketBookingSystem.Services/AirportTicketBookingSystem.Services.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "AirportTicketBookingSystem.Core >= 1.0.0",
+      "AirportTicketBookingSystem.Infrastructure >= 1.0.0",
+      "AirportTicketBookingSystem.Services >= 1.0.0",
       "Microsoft.AspNetCore.Mvc >= 2.2.0",
       "Microsoft.EntityFrameworkCore >= 8.0.6",
       "MySql.Data >= 8.4.0",
@@ -9232,7 +9287,17 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Lenovo\\source\\repos\\AirportTicketBookingSystem\\AirportTicketBookingSystem.Core\\AirportTicketBookingSystem.Core.csproj": {
+              "projectPath": "C:\\Users\\Lenovo\\source\\repos\\AirportTicketBookingSystem\\AirportTicketBookingSystem.Core\\AirportTicketBookingSystem.Core.csproj"
+            },
+            "C:\\Users\\Lenovo\\source\\repos\\AirportTicketBookingSystem\\AirportTicketBookingSystem.Infrastructure\\AirportTicketBookingSystem.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\Lenovo\\source\\repos\\AirportTicketBookingSystem\\AirportTicketBookingSystem.Infrastructure\\AirportTicketBookingSystem.Infrastructure.csproj"
+            },
+            "C:\\Users\\Lenovo\\source\\repos\\AirportTicketBookingSystem\\AirportTicketBookingSystem.Services\\AirportTicketBookingSystem.Services.csproj": {
+              "projectPath": "C:\\Users\\Lenovo\\source\\repos\\AirportTicketBookingSystem\\AirportTicketBookingSystem.Services\\AirportTicketBookingSystem.Services.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
